@@ -1,0 +1,108 @@
+﻿@page "/"
+@*outer box*@
+<div class="row" id="my-box">
+    @*left panel*@
+    <div class="col-md-6 border">
+        <div class="row" >
+            <div class="row" style="margin-top:2%;margin-bottom:2%;">
+                <div class="col-md-1 border"></div>
+                <div class="col-md-3 border">
+                    <div class="label">Label</div>
+                </div>
+                <div class="col-md-8 border">
+                    <RadzenDropDown @bind-Value=@value Data=@values1 Style="width: 100%; max-width: 400px;" />
+                </div>
+            </div>
+            <div class="row" style="margin-top:2%;margin-bottom:2%;">
+                <div class="col-md-1 border"></div>
+                <div class="col-md-3 border">
+                    <div class="label">Label</div>
+                </div>
+                <div class="col-md-8 border">
+                    <RadzenDropDown @bind-Value=@value Data=@values1 Style="width: 100%; max-width: 400px;" />
+                </div>
+            </div>
+            <div class="row" style="margin-top:2%;margin-bottom:2%;">
+                <div class="col-md-1 border"></div>
+                <div class="col-md-3 border">
+                    <div class="label">Label</div>
+                </div>
+                <div class="col-md-8 border">
+                    @if (Selection == 4)
+                    {
+                       @* <RadzenTextBox Change=@(args => OnChange(args, "TextBox")) class="w-100" />*@
+                        <RadzenTextBox Style="width:100%;max-width:400px;" />
+                       
+                    }
+                    else
+
+                    {
+                        <RadzenDropDown @bind-Value=@value Data=@values1 Style="width: 100%; max-width: 400px;" />
+                    }
+                    
+
+                </div>
+            </div>
+            @if (Selection==3)
+            {
+                <div class="row" style="margin-top:2%;margin-bottom:2%;">
+                    <div class="col-md-1 border"></div>
+                    <div class="col-md-3 border">
+                        <div class="label">Label</div>
+                    </div>
+                    <div class="col-md-8 border">
+                        <RadzenDropDown @bind-Value=@value Data=@values1 Style="width: 100%; max-width: 400px;" />
+                    </div>
+                </div>
+                <div class="row" style="margin-top:2%;margin-bottom:2%;">
+                    <div class="col-md-1 border"></div>
+                    <div class="col-md-3 border">
+                        <div class="label">
+                            <RadzenCheckBox @bind-Value=@value Name="CheckBox1" />
+                        </div>
+                    </div>
+                    <div class="col-md-8 border">
+                        <RadzenText TextStyle="TextStyle.H6" TextAlign="Radzen.TextAlign.Center">Radzen Heading 6</RadzenText>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    @*right panel*@
+    <div class="col-md-6 border">
+        <div class="row" >
+            <div class="col-md-2 border">
+            </div>
+            <div class="col-md-8 border">
+                <RadzenRadioButtonList @bind-Value=@Selection TValue="int" Orientation=Orientation.Vertical class="mb-2">
+                    <Items>
+                        <RadzenRadioButtonListItem Text="Orders" Value="1" Style="margin-top:5%;margin-bottom:5%"/>
+                        <RadzenRadioButtonListItem Text="Employees" Value="2" Style="margin-top:5%;" />
+                        <RadzenRadioButtonListItem Text="Customers" Value="3" Style="margin-top:5%;" />
+                        <RadzenRadioButtonListItem Text="Customers" Value="4" Style="margin-top:5%;" />
+                    </Items>
+                </RadzenRadioButtonList>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <RadzenButton Text="Secondary" ButtonStyle="ButtonStyle.Info" Style="max-width:300px;min-width:200px;" />
+        </div>
+    </div>
+</div>
+<PageTitle>Index</PageTitle>
+
+@code {
+    String value { get; set; } = "1";
+    List<String> values1 { get; set; } = new List<string>();
+    int Selection { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        for (int i = 0; i < 10; i++)
+        {
+            values1.Add(i.ToString());
+        }
+    }
+}
