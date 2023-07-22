@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "doKGl638h/IQchSyWOJavwy4iGpg3Z0P1pHZTxZkVLE=",
+  "Hash": "Q+t12grBMKAMzzdDCFDRi5zr8kFLRo5RUbFj9IbR11A=",
   "Source": "BlazorApp1",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.7.0\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "C:\\Users\\DELL\\.nuget\\packages\\radzen.blazor\\4.14.1\\staticwebassets\\css\\dark.css",
       "SourceId": "Radzen.Blazor",
@@ -1054,6 +1088,40 @@
       "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\lib\\net7.0\\Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
+      "Identity": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll",
+      "SourceId": "BlazorApp1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\7.0.5\\lib\\net7.0\\Microsoft.Extensions.Localization.Abstractions.dll"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll",
+      "SourceId": "BlazorApp1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.extensions.localization\\7.0.5\\lib\\net7.0\\Microsoft.Extensions.Localization.dll"
+    },
+    {
       "Identity": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
       "SourceId": "BlazorApp1",
       "SourceType": "Computed",
@@ -1239,6 +1307,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\7.0.5\\runtimes\\browser-wasm\\lib\\net7.0\\mscorlib.dll"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "SourceId": "BlazorApp1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\DELL\\.nuget\\packages\\mudblazor\\6.7.0\\lib\\net7.0\\MudBlazor.dll"
     },
     {
       "Identity": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\netstandard.dll",
@@ -4301,6 +4386,23 @@
       "OriginalItemSpec": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\icudt.dat"
     },
     {
+      "Identity": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\obj\\Debug\\net7.0\\build-gz\\24CoigzZ.gz",
+      "SourceId": "BlazorApp1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\MudBlazor.dll"
+    },
+    {
       "Identity": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\obj\\Debug\\net7.0\\build-gz\\278ydXd3.gz",
       "SourceId": "BlazorApp1",
       "SourceType": "Computed",
@@ -4418,6 +4520,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Net.Mail.dll"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\obj\\Debug\\net7.0\\build-gz\\3u9crZIK.gz",
+      "SourceId": "BlazorApp1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.dll"
     },
     {
       "Identity": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\obj\\Debug\\net7.0\\build-gz\\41509Qh5.gz",
@@ -5268,6 +5387,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Text.Json.dll"
+    },
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\obj\\Debug\\net7.0\\build-gz\\ELrZmifm.gz",
+      "SourceId": "BlazorApp1",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Localization.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\bin\\Debug\\net7.0\\wwwroot\\_framework\\Microsoft.Extensions.Localization.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\DELL\\Desktop\\CSharp\\BlazorApp1\\obj\\Debug\\net7.0\\build-gz\\eobAnPFx.gz",

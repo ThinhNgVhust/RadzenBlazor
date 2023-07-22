@@ -834,3 +834,15 @@ C:\Users\DELL\Desktop\CSharp\BlazorApp1\obj\Debug\net7.0\BlazorApp1.dll
 C:\Users\DELL\Desktop\CSharp\BlazorApp1\obj\Debug\net7.0\refint\BlazorApp1.dll
 C:\Users\DELL\Desktop\CSharp\BlazorApp1\obj\Debug\net7.0\BlazorApp1.pdb
 C:\Users\DELL\Desktop\CSharp\BlazorApp1\obj\Debug\net7.0\ref\BlazorApp1.dll
+C:\Users\DELL\Desktop\CSharp\BlazorApp1\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\DELL\Desktop\CSharp\BlazorApp1\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll
+C:\Users\DELL\Desktop\CSharp\BlazorApp1\bin\Debug\net7.0\wwwroot\_framework\MudBlazor.dll
+C:\Users\DELL\Desktop\CSharp\BlazorApp1\bin\Debug\net7.0\wwwroot\_framework\MudBlazor.dll.gz
+C:\Users\DELL\Desktop\CSharp\BlazorApp1\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.dll.gz
+C:\Users\DELL\Desktop\CSharp\BlazorApp1\bin\Debug\net7.0\wwwroot\_framework\Microsoft.Extensions.Localization.Abstractions.dll.gz
+C:\Users\DELL\Desktop\CSharp\BlazorApp1\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+C:\Users\DELL\Desktop\CSharp\BlazorApp1\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\DELL\Desktop\CSharp\BlazorApp1\bin\Debug\net7.0\MudBlazor.dll
+C:\Users\DELL\Desktop\CSharp\BlazorApp1\obj\Debug\net7.0\build-gz\3u9crZIK.gz
+C:\Users\DELL\Desktop\CSharp\BlazorApp1\obj\Debug\net7.0\build-gz\ELrZmifm.gz
+C:\Users\DELL\Desktop\CSharp\BlazorApp1\obj\Debug\net7.0\build-gz\24CoigzZ.gz

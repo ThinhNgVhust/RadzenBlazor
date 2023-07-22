@@ -109,11 +109,13 @@ a, .btn-link {
 #my-box {
     /*background-color:red;*/
     display: flex;
-    height:65vh !important;
+    /*height:65vh !important;*/
+    height:fit-content !important;
     width:80%;
     margin-left:100px;
     border:1px solid red !important;
-    overflow:auto;
+    /*overflow:auto;*/
+    /*background-color:red !important;*/
 }
 #my-box .left{
     flex-grow:1;

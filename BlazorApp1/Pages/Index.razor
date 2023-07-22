@@ -31,7 +31,7 @@
                     @if (Selection == 4)
                     {
                        @* <RadzenTextBox Change=@(args => OnChange(args, "TextBox")) class="w-100" />*@
-                        <RadzenTextBox Style="width:100%;max-width:400px;" />
+                        <RadzenTextBox Style="width:100%;max-width:400px;" Disabled/>
                        
                     }
                     else
@@ -51,6 +51,8 @@
                         <div class="label">Label</div>
                     </div>
                     <div class="col-md-8 border">
+                        @*<MudAutocomplete T="string" Label="Value" @bind-Value="value1" SearchFunc="@Search1" Margin="MudBlazor.Margin.None" Dense="false" Variant="Variant.Outlined" />*@
+
                         <RadzenDropDown @bind-Value=@value Data=@values1 Style="width: 100%; max-width: 400px;" />
                     </div>
                 </div>
@@ -58,7 +60,7 @@
                     <div class="col-md-1 border"></div>
                     <div class="col-md-3 border">
                         <div class="label">
-                            <RadzenCheckBox @bind-Value=@value Name="CheckBox1" />
+                            <RadzenCheckBox @bind-Value=@IsCheck />
                         </div>
                     </div>
                     <div class="col-md-8 border">
@@ -74,28 +76,61 @@
             <div class="col-md-2 border">
             </div>
             <div class="col-md-8 border">
-                <RadzenRadioButtonList @bind-Value=@Selection TValue="int" Orientation=Orientation.Vertical class="mb-2">
+                <RadzenRadioButtonList @bind-Value=@Selection TValue="int" Orientation=Radzen.Orientation.Vertical class="mb-2">
                     <Items>
-                        <RadzenRadioButtonListItem Text="Orders" Value="1" Style="margin-top:5%;margin-bottom:5%"/>
-                        <RadzenRadioButtonListItem Text="Employees" Value="2" Style="margin-top:5%;" />
-                        <RadzenRadioButtonListItem Text="Customers" Value="3" Style="margin-top:5%;" />
-                        <RadzenRadioButtonListItem Text="Customers" Value="4" Style="margin-top:5%;" />
+                        <RadzenRadioButtonListItem Text="Orders" Value="1" Style="margin-top:10%%"/>
+                        <RadzenRadioButtonListItem Text="Employees" Value="2" Style="margin-top:10%;" />
+                        <RadzenRadioButtonListItem Text="Customers" Value="3" Style="margin-top:10%;" />
+                        <RadzenRadioButtonListItem Text="Customers" Value="4" Style="margin-top:10%;" />
                     </Items>
                 </RadzenRadioButtonList>
             </div>
         </div>
         <div class="row justify-content-center">
-            <RadzenButton Text="Secondary" ButtonStyle="ButtonStyle.Info" Style="max-width:300px;min-width:200px;" />
+            <RadzenButton Text="Secondary" ButtonStyle="Radzen.ButtonStyle.Info" Style="max-width:300px;min-width:200px;margin-top:14%;" />
         </div>
     </div>
 </div>
 <PageTitle>Index</PageTitle>
 
 @code {
+    public bool IsCheck{ get; set; }
     String value { get; set; } = "1";
     List<String> values1 { get; set; } = new List<string>();
     int Selection { get; set; }
+    private string value1;
+    private string[] states =
+    {
+        "Alabama", "Alaska", "American Samoa", "Arizona",
+        "Arkansas", "California", "Colorado", "Connecticut",
+        "Delaware", "District of Columbia", "Federated States of Micronesia",
+        "Florida", "Georgia", "Guam", "Hawaii", "Idaho",
+        "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky",
+        "Louisiana", "Maine", "Marshall Islands", "Maryland",
+        "Massachusetts", "Michigan", "Minnesota", "Mississippi",
+        "Missouri", "Montana", "Nebraska", "Nevada",
+        "New Hampshire", "New Jersey", "New Mexico", "New York",
+        "North Carolina", "North Dakota", "Northern Mariana Islands", "Ohio",
+        "Oklahoma", "Oregon", "Palau", "Pennsylvania", "Puerto Rico",
+        "Rhode Island", "South Carolina", "South Dakota", "Tennessee",
+        "Texas", "Utah", "Vermont", "Virgin Island", "Virginia",
+        "Washington", "West Virginia", "Wisconsin", "Wyoming",
+    };
 
+    private async Task<IEnumerable<string>> Search1(string value)
+    {
+        // In real life use an asynchronous function for fetching data from an api.
+        //await Task.Delay(5);
+
+        // if text is null or empty, show complete list
+        foreach (var item in states)
+        {
+            Console.WriteLine(item);
+        }
+        if (string.IsNullOrEmpty(value))
+            return states;
+        return states.Where(x => x.Contains(value, StringComparison.InvariantCultureIgnoreCase));
+    }
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
